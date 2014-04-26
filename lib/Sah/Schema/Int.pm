@@ -1,10 +1,11 @@
 package Sah::Schema::Int;
 
-use 5.010;
+use 5.010001;
 use strict;
 use warnings;
 
 # VERSION
+# DATE
 
 our %SCHEMAS = (
     pos_int => [int => {
@@ -89,4 +90,4 @@ _
 );
 
 1;
-# ABSTRACT: Sah schemas for integers
+# ABSTRACT: Sah schemas for various integers
