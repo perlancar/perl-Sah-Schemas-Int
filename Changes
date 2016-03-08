@@ -1,5 +1,12 @@
 Revision history for Sah-Schema-Int
 
-0.01    2014-04-26 (SHARYANTO) (not yet released)
+0.02    2016-03-08 (PERLANCAR)
+
+        - Fix schemas.
+
+        - [dist] Use Pod::Weaver::Plugin::Sah::Schema.
+
+
+0.01    2014-04-26 (SHARYANTO)
 
         - First release.
