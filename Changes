@@ -1,10 +1,10 @@
 Revision history for Sah-Schemas-Int
 
-0.03    2016-05-08 (PERLANCAR) (unreleased)
+0.03    2016-05-08 (PERLANCAR)
 
         - [Incompatible change] Rename Sah-Schema-* distribution to
-          Sah-Schemas-*. Put individual schema in separate Sah::Schema::*
-          packages for quicker lookup/retrieval.
+          Sah-Schemas-*. Follow Sah::Schemas convention (put individual schemas
+          in separate Sah::Schema::* packages).
 
 
 0.02    2016-03-08 (PERLANCAR)
