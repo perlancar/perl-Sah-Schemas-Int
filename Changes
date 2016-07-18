@@ -1,5 +1,11 @@
 Revision history for Sah-Schemas-Int
 
+0.04    2016-07-18 (PERLANCAR)
+
+	- Add schemas: even, odd, {neg,pos}{even,odd} (currently mainly for
+	  testing).
+
+
 0.03    2016-05-08 (PERLANCAR)
 
         - [Incompatible change] Rename Sah-Schema-* distribution to
