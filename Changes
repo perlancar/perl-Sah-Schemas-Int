@@ -1,5 +1,11 @@
 Revision history for Sah-Schemas-Int
 
+0.05    2016-07-18 (PERLANCAR)
+
+	- Base {neg,pos}{even,odd} on {neg,pos}int instead of directly on
+	  int, for testing.
+
+
 0.04    2016-07-18 (PERLANCAR)
 
 	- Add schemas: even, odd, {neg,pos}{even,odd} (currently mainly for
