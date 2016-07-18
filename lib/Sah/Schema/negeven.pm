@@ -3,10 +3,9 @@ package Sah::Schema::negeven;
 # DATE
 # VERSION
 
-our $schema = ['int', {
+our $schema = ['negint', {
     summary => 'Negative even number',
     div_by => 2,
-    max => -1,
 }, {}];
 
 1;

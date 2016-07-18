@@ -3,11 +3,10 @@ package Sah::Schema::posodd;
 # DATE
 # VERSION
 
-our $schema = ['int', {
+our $schema = ['posint', {
     summary => 'Positive odd number',
     div_by => 2,
     'div_by.op' => 'not',
-    min => 0,
 }, {}];
 
 1;
