@@ -1,5 +1,10 @@
 Revision history for Sah-Schemas-Int
 
+0.06    2016-07-22 (PERLANCAR)
+
+        - [build] Rebuild to generate Sah::SchemaR::* modules.
+
+
 0.05    2016-07-18 (PERLANCAR)
 
 	- Base {neg,pos}{even,odd} on {neg,pos}int instead of directly on
