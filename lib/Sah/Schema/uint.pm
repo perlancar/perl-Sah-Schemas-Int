@@ -1,14 +1,12 @@
-package Sah::Schema::nonnegint;
+package Sah::Schema::uint;
 
 # DATE
 # VERSION
 
 our $schema = [int => {
-    summary   => 'Non-negative integer (0, 1, 2, ...) [DEPRECATED]',
+    summary   => 'Non-negative integer (0, 1, 2, ...)',
     min       => 0,
    description => <<'_',
-
-This schema is DEPRECATED. Please use the new name `uint`.
 
 See also `posint` for integers that start from 1.
 
