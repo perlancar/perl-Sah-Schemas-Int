@@ -9,7 +9,7 @@ our $schema = [int => {
     description => <<'_',
 
 Zero is not included in this schema because zero is neither positive nor
-negative. See also `nonnegint` for integers that start from 0.
+negative. See also `uint` for integers that start from 0.
 
 _
 }, {}];
