@@ -1,3 +1,10 @@
+0.072   2020-03-02  Released-By: PERLANCAR; Urgency: medium
+
+	- Add examples (tests).
+
+	- [doc] Forgot to replace references to nonnegint.
+
+
 0.071   2018-04-03  Released-By: PERLANCAR
 
 	- Deprecate nonnegint in favor of the new name 'uint'.
