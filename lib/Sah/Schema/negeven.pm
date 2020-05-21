@@ -11,6 +11,7 @@ our $schema = ['negint', {
     examples => [
         {data=>-2, valid=>1},
         {data=>-1, valid=>0},
+        {data=>0, valid=>0},
     ],
 }, {}];
 

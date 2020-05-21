@@ -11,6 +11,9 @@ our $schema = [int => {
     max     => +2**31-1,
     examples => [
         {data=>0, valid=>1},
+        {data=>-2**31, valid=>1},
+        {data=>-2**31-1, valid=>0},
+        {data=>2**31-1, valid=>1},
         {data=>2**31, valid=>0},
     ],
 }, {}];

@@ -12,7 +12,10 @@ our $schema = [int => {
     examples => [
         {data=>0, valid=>1},
         {data=>1.1, valid=>0},
-        # XXX test out-of-range ints
+        #{data=>-2**63, valid=>1},
+        #{data=>-2**63-1, valid=>0},
+        #{data=>2**63-1, valid=>1},
+        #{data=>2**63, valid=>0},
     ],
 }, {}];
 

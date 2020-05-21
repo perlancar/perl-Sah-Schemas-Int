@@ -12,6 +12,9 @@ our $schema = [int => {
     examples => [
         {data=> 0, valid=>1},
         {data=>-1, valid=>0},
+        {data=>1, valid=>1},
+        {data=>255, valid=>1},
+        {data=>256, valid=>0},
     ],
 }, {}];
 
