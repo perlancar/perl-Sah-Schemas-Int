@@ -1,5 +1,7 @@
 package Sah::Schema::negeven;
 
+use strict;
+
 # AUTHORITY
 # DATE
 # DIST
@@ -13,7 +15,7 @@ our $schema = ['negint', {
         {data=>-1, valid=>0},
         {data=>0, valid=>0},
     ],
-}, {}];
+}];
 
 1;
 # ABSTRACT:

@@ -1,5 +1,7 @@
 package Sah::Schema::natnum;
 
+use strict;
+
 # AUTHORITY
 # DATE
 # DIST
@@ -14,7 +16,7 @@ ISO 80000-2 begin the natural numbers with 0. But in this definition, natural
 numbers start with 1. For integers that start at 0, see `uint`.
 
 _
-}, {}];
+}];
 
 1;
 # ABSTRACT:

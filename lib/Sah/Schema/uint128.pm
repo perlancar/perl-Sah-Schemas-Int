@@ -1,5 +1,7 @@
 package Sah::Schema::uint128;
 
+use strict;
+
 # AUTHORITY
 # DATE
 # DIST
@@ -15,7 +17,10 @@ our $schema = [int => {
         #{data=>2**128-1, valid=>1},
         #{data=>2**128, valid=>0},
     ],
-}, {}];
+    links => [
+        {url=>'pm:Types::CLike', summary=>'Equivalent Type::Tiny constraints: OctaWord, DoubleQuadWord, UInt128, Unsigned128'},
+    ],
+}];
 
 1;
 # ABSTRACT:

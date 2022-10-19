@@ -1,5 +1,7 @@
 package Sah::Schema::posodd;
 
+use strict;
+
 # AUTHORITY
 # DATE
 # DIST
@@ -15,7 +17,7 @@ our $schema = ['posint', {
         {data=>0, valid=>0},
         {data=>2, valid=>0},
     ],
-}, {}];
+}];
 
 1;
 # ABSTRACT:

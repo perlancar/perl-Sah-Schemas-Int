@@ -1,5 +1,7 @@
 package Sah::Schema::odd;
 
+use strict;
+
 # AUTHORITY
 # DATE
 # DIST
@@ -16,7 +18,7 @@ our $schema = ['int', {
         {data=> 2, valid=>0},
         {data=> 3, valid=>1},
     ],
-}, {}];
+}];
 
 1;
 # ABSTRACT:

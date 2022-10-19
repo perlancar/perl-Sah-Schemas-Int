@@ -1,5 +1,7 @@
 package Sah::Schema::negodd;
 
+use strict;
+
 # AUTHORITY
 # DATE
 # DIST
@@ -15,7 +17,7 @@ our $schema = ['negint', {
         {data=>-1, valid=>1},
         {data=>-2, valid=>0},
     ],
-}, {}];
+}];
 
 1;
 # ABSTRACT:

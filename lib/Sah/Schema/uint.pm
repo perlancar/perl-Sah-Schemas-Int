@@ -1,5 +1,7 @@
 package Sah::Schema::uint;
 
+use strict;
+
 # AUTHORITY
 # DATE
 # DIST
@@ -18,7 +20,11 @@ _
         {data=> 1, valid=>1},
         {data=>-1, valid=>0},
     ],
- }, {}];
+    links => [
+        {url=>'pm:Types::XSD', summary=>'Equivalent Type::Tiny constraints: NonNegativeInteger'},
+        {url=>'pm:Types::Numbers', summary=>'Equivalent Type::Tiny constraints: NegativeOrZeroInt'},
+    ],
+}];
 
 1;
 # ABSTRACT:

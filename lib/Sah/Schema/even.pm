@@ -1,5 +1,7 @@
 package Sah::Schema::even;
 
+use strict;
+
 # DATE
 # VERSION
 
@@ -13,7 +15,7 @@ our $schema = ['int', {
         {data=>-1, valid=>0},
         {data=>-2, valid=>1},
     ],
-}, {}];
+}];
 
 1;
 # ABSTRACT:

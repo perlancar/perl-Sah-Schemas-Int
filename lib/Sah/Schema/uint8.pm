@@ -1,5 +1,7 @@
 package Sah::Schema::uint8;
 
+use strict;
+
 # AUTHORITY
 # DATE
 # DIST
@@ -16,7 +18,11 @@ our $schema = [int => {
         {data=>255, valid=>1},
         {data=>256, valid=>0},
     ],
-}, {}];
+    links => [
+        {url=>'pm:Types::CLike', summary=>'Equivalent Type::Tiny constraints: Byte, Octet, UnsignedTinyInt, UInt8, Unsigned8'},
+        {url=>'pm:Types::XSD', summary=>'Equivalent Type::Tiny constraints: UnsignedByte'},
+    ],
+}];
 
 1;
 # ABSTRACT:

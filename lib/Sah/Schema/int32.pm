@@ -1,5 +1,7 @@
 package Sah::Schema::int32;
 
+use strict;
+
 # AUTHORITY
 # DATE
 # DIST
@@ -16,7 +18,11 @@ our $schema = [int => {
         {data=>2**31-1, valid=>1},
         {data=>2**31, valid=>0},
     ],
-}, {}];
+    links => [
+        {url=>'pm:Types::CLike', summary=>'Equivalent Type::Tiny constraints: Int, Int32, Signed32'},
+        {url=>'pm:Types::XSD', summary=>'Equivalent Type::Tiny constraints: Int'},
+    ],
+}];
 
 1;
 # ABSTRACT:
